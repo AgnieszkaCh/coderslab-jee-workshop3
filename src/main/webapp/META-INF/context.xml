@@ -6,7 +6,7 @@
               username="root"
               password="root"
               driverClassName="com.mysql.jdbc.Driver"
-              connectionProperties="useUnicode=yes;characterEncoding=utf8;"
+              connectionProperties="useUnicode=yes;characterEncoding=utf8;serverTimezone=UTC"
               url="jdbc:mysql://localhost:3306/bootcamp"
               maxTotal="100"
               maxIdle="30"
